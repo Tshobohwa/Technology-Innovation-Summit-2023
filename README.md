@@ -69,7 +69,7 @@ Technology innovation Summit 2023
 
 > Add a link to your deployed project.
 
-- [Portfolio](https://tshobohwa.github.io/)
+- [Portfolio](https://tshobohwa.github.io/Technology-Innovation-Summit-2023/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
