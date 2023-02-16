@@ -1,28 +1,29 @@
 'use strict'
 
-const mainPage = document.getElementById('main-body');
-const aboutPage = document.getElementById('about-body');
+const mainPage = document.getElementById('main-body')
+const aboutPage = document.getElementById('about-body')
 
 class Page {
-  constructor(page){
+  constructor (page) {
     this.page = page
   }
-  displayMobileMenu(){
-    const menuBtn = this.page.querySelector('.menu-btn');
-    const mobileMenu = this.page.querySelector('.nav-items');
-    menuBtn.addEventListener('click', ()=>{
-      mobileMenu.classList.toggle('nav-displayed');
-      menuBtn.classList.toggle('open');
+
+  displayMobileMenu () {
+    const menuBtn = this.page.querySelector('.menu-btn')
+    const mobileMenu = this.page.querySelector('.nav-items')
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('nav-displayed')
+      menuBtn.classList.toggle('open')
     })
   }
 }
 
-const myPage = mainPage ? new Page (mainPage) : new Page (aboutPage);
-myPage.displayMobileMenu();
+const myPage = mainPage ? new Page(mainPage) : new Page(aboutPage)
+myPage.displayMobileMenu()
 
-if (mainPage){
+if (mainPage) {
   const featuredSpeakers = document.querySelector('.featured-speakers')
-    
+
   class Speaker {
     constructor (imgSrc, name, bio, achievement) {
       this.imgSrc = imgSrc
@@ -34,7 +35,7 @@ if (mainPage){
     displaySpeaker (i) {
       featuredSpeakers.insertAdjacentHTML('beforeend',
           `
-              <div class="speaker" id="speaker-${i+1}">
+              <div class="speaker" id="speaker-${i + 1}">
                   <div class="speaker-img__div">
                       <img src="images/checkerboard.jpg" alt="Checkerboard" class="Checkerboard">
                       <img src="${this.imgSrc}" alt="Elon_Musk" class="speaker-img">
@@ -91,15 +92,13 @@ if (mainPage){
 
   const initFeaturedSpeakers = function () {
     speakers.forEach((speaker, i) => {
-      speaker.displaySpeaker(i);
-      const speakerCard = document.getElementById(`speaker-${i+1}`);
-      if (i + 1 > 2) speakerCard.style.display = 'none';
+      speaker.displaySpeaker(i)
+      const speakerCard = document.getElementById(`speaker-${i + 1}`)
+      if (i + 1 > 2) speakerCard.style.display = 'none'
     })
   }
 
- 
   initFeaturedSpeakers()
-
 
   const moreBtn = document.querySelector('.more-btn')
   const moreIcon = document.querySelector('.more-icon')
@@ -107,55 +106,54 @@ if (mainPage){
   let allSpeakers = false
   moreBtn.addEventListener('click', () => {
     speakers.forEach((speaker, i) => {
-      const speakerCard = document.getElementById(`speaker-${i+1}`);
+      const speakerCard = document.getElementById(`speaker-${i + 1}`)
       if (!allSpeakers) {
-         if (i + 1  > 2) speakerCard.style.display = 'grid';
-          moreIcon.style.transform = 'rotate(180deg)'
-          btnName.textContent = 'LESS'
-      }
-     else {
-      if (i + 1  > 2) speakerCard.style.display = 'none';
-      moreIcon.style.transform = 'rotate(0deg)'
-      btnName.textContent = 'MORE'
-    }
-  })
-  allSpeakers = !allSpeakers
-})
-
-const screenSize = window.matchMedia("(max-width: 768px)");
-let mobileVersion = screenSize.matches;
-
-const section2Btn = document.querySelector('.section2-button');
-
-if (!mobileVersion){
-      document.querySelectorAll('.speaker').forEach(speaker =>{
-      speaker.style.display = 'grid';
-      allSpeakers = true;
-      moreBtn.style.display = 'none';
-      section2Btn.textContent = 'SEE THE WHOLE PROGRAM';
-    })
-}
-
-screenSize.addEventListener('change', () =>{
-  if (!screenSize.matches && mobileVersion){
-    document.querySelectorAll('.speaker').forEach(speaker =>{
-      speaker.style.display = 'grid';
-      allSpeakers = true;
-      moreBtn.style.display = 'none';
-      section2Btn.textContent = 'SEE THE WHOLE PROGRAM';
-    })
-    mobileVersion = !mobileVersion;
-  } 
-  if (screenSize.matches && !mobileVersion) {
-    document.querySelectorAll('.speaker').forEach((speaker, i) => {
-      if (i > 1 && speaker.id === `speaker-${i + 1}`) speaker.style.display = 'none';
+        if (i + 1 > 2) speakerCard.style.display = 'grid'
+        moreIcon.style.transform = 'rotate(180deg)'
+        btnName.textContent = 'LESS'
+      } else {
+        if (i + 1 > 2) speakerCard.style.display = 'none'
         moreIcon.style.transform = 'rotate(0deg)'
         btnName.textContent = 'MORE'
-        allSpeakers = false;
-        moreBtn.style.display = 'flex';
-      section2Btn.textContent = 'Join IT Technology Summit';
+      }
     })
-    mobileVersion = !mobileVersion;
+    allSpeakers = !allSpeakers
+  })
+
+  const screenSize = window.matchMedia('(max-width: 768px)')
+  let mobileVersion = screenSize.matches
+
+  const section2Btn = document.querySelector('.section2-button')
+
+  if (!mobileVersion) {
+    document.querySelectorAll('.speaker').forEach(speaker => {
+      speaker.style.display = 'grid'
+      allSpeakers = true
+      moreBtn.style.display = 'none'
+      section2Btn.textContent = 'SEE THE WHOLE PROGRAM'
+    })
   }
-})
+
+  screenSize.addEventListener('change', () => {
+    if (!screenSize.matches && mobileVersion) {
+      document.querySelectorAll('.speaker').forEach(speaker => {
+        speaker.style.display = 'grid'
+        allSpeakers = true
+        moreBtn.style.display = 'none'
+        section2Btn.textContent = 'SEE THE WHOLE PROGRAM'
+      })
+      mobileVersion = !mobileVersion
+    }
+    if (screenSize.matches && !mobileVersion) {
+      document.querySelectorAll('.speaker').forEach((speaker, i) => {
+        if (i > 1 && speaker.id === `speaker-${i + 1}`) speaker.style.display = 'none'
+        moreIcon.style.transform = 'rotate(0deg)'
+        btnName.textContent = 'MORE'
+        allSpeakers = false
+        moreBtn.style.display = 'flex'
+        section2Btn.textContent = 'Join IT Technology Summit'
+      })
+      mobileVersion = !mobileVersion
+    }
+  })
 }
