@@ -39,25 +39,21 @@ Technology innovation Summit 2023
 
 # 📖 [Technology Innovation Summit 2023] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Technology Innovation Summit 2023]** is an online website for a technology conference with the big figures of the industry.
 
-> Video description: [@loomhandle](https://www.loom.com/share/216a834a707246da9fdccf8ffa452918)
+Video description: [@loomhandle](https://www.loom.com/share/216a834a707246da9fdccf8ffa452918)
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack">HTML</a>
+- <a name="tech-stack">HTML</a>
 
-### Tech Stack <a name="tech-stack">CSS</a>
+- <a name="tech-stack">CSS</a>
 
-### Tech Stack <a name="tech-stack">JavaScript</a>
+- <a name="tech-stack">JavaScript</a>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[Innovation Technology Summit 2023]** Show informations about a technology conference that will take place soon.
 
@@ -76,8 +72,6 @@ Technology innovation Summit 2023
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -115,8 +109,6 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/Tshobohwa)
@@ -128,13 +120,6 @@ To run the project, execute the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [Program] **[new_feature_1]**
-- [Join] **[new_feature_1]**
-- [Sponsor] **[new_feature_1]**
-- [New] **[new_feature_1]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,8 +137,6 @@ Feel free to check the [issues page](https://github.com/Tshobohwa/Technology-Inn
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project, please give it a start and follow us on our platforms for more upcoming projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,9 +145,8 @@ If you like this project, please give it a start and follow us on our platforms 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank Microverse.
+I would like also to thank (Creative Commons)[http://creativecommons.org/licenses/by-nc/4.0/] for giving me the design of this page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
