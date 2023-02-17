@@ -144,7 +144,9 @@ If you like this project, please give it a start and follow us on our platforms 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse.
-I would like also to thank (Creative Commons)[http://creativecommons.org/licenses/by-nc/4.0/] for giving me the design of this page.
+I would like also to thank Creative Common for giving me the design of this page.
+
+- (Creative Commons)[http://creativecommons.org/licenses/by-nc/4.0/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
