@@ -63,8 +63,6 @@ Video description: [@loomhandle](https://www.loom.com/share/216a834a707246da9fdc
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Portfolio](https://tshobohwa.github.io/Technology-Innovation-Summit-2023/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
