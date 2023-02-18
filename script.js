@@ -21,6 +21,9 @@ class Page {
 const myPage = mainPage ? new Page(mainPage) : new Page(aboutPage)
 myPage.displayMobileMenu()
 
+const screenSize = window.matchMedia('(max-width: 768px)')
+let mobileVersion = screenSize.matches
+
 if (mainPage) {
   const featuredSpeakers = document.querySelector('.featured-speakers')
 
@@ -120,9 +123,6 @@ if (mainPage) {
     allSpeakers = !allSpeakers
   })
 
-  const screenSize = window.matchMedia('(max-width: 768px)')
-  let mobileVersion = screenSize.matches
-
   const section2Btn = document.querySelector('.section2-button')
 
   if (!mobileVersion) {
@@ -153,6 +153,20 @@ if (mainPage) {
         moreBtn.style.display = 'flex'
         section2Btn.textContent = 'Join IT Technology Summit'
       })
+      mobileVersion = !mobileVersion
+    }
+  })
+} else {
+  const footerLogo = document.querySelector('.footer-logo')
+  if (!mobileVersion) footerLogo.src = 'icons/page-logo-about.png'
+  screenSize.addEventListener('change', () => {
+    if (!screenSize.matches && mobileVersion) {
+      footerLogo.src = 'icons/page-logo-about.png'
+      mobileVersion = !mobileVersion
+    }
+
+    if (screenSize.matches && !mobileVersion) {
+      footerLogo.src = 'icons/page-logo.png'
       mobileVersion = !mobileVersion
     }
   })
