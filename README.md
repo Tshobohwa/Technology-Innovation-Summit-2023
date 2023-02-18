@@ -41,7 +41,7 @@ Technology innovation Summit 2023
 
 **[Technology Innovation Summit 2023]** is website for a technology conference with the big figures of the industry.
 
-Video description: [@loomhandle](https://www.loom.com/share/216a834a707246da9fdccf8ffa452918)
+Video description: [@loomhandle](https://www.loom.com/share/e22a99199aa54571950387dfaacfa636)
 
 ## 🛠 Built With <a name="built-with"></a>
 
