@@ -41,7 +41,7 @@ Technology innovation Summit 2023
 
 **[Technology Innovation Summit 2023]** is website for a technology conference with the big figures of the industry.
 
-Video description: [@loomhandle](https://www.loom.com/share/e22a99199aa54571950387dfaacfa636)
+Video description: [@loomhandle](https://www.loom.com/share/c07d5f85314d4198a5985b5890f631c9)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -119,6 +119,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [Join]
+- [Sponsor]
+- [New]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -144,7 +148,7 @@ If you like this project, please give it a start and follow us on our platforms 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse.
-I would like also to thank [Creative Commons](http://creativecommons.org/licenses/by-nc/4.0/) for giving me the design of this page.
+Original design by Cindy Shin on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
