@@ -39,7 +39,7 @@ Technology innovation Summit 2023
 
 # 📖 [Technology Innovation Summit 2023] <a name="about-project"></a>
 
-**[Technology Innovation Summit 2023]** is an online website for a technology conference with the big figures of the industry.
+**[Technology Innovation Summit 2023]** is website for a technology conference with the big figures of the industry.
 
 Video description: [@loomhandle](https://www.loom.com/share/216a834a707246da9fdccf8ffa452918)
 
@@ -63,7 +63,7 @@ Video description: [@loomhandle](https://www.loom.com/share/216a834a707246da9fdc
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Portfolio](https://tshobohwa.github.io/Technology-Innovation-Summit-2023/)
+- [Technology Innovation Summit](https://tshobohwa.github.io/Technology-Innovation-Summit-2023/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,7 @@ Clone this repository to your desired folder:
 
 - cd my-folder
 - git clone "https://github.com/Tshobohwa/Technology-Innovation-Summit-2023"
-- cd Portfolio
+- cd Technology-innovation-summit
 
 ### Install
 
@@ -111,7 +111,7 @@ To run the project, execute the following command:
 
 - GitHub: [@githubhandle](https://github.com/Tshobohwa)
 - Twitter: [@twitterhandle](https://twitter.com/SalomonTshoboh1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tshobohwa-salomon-4bb457245/)
+- LinkedIn: [@linkedIn](https://www.linkedin.com/in/tshobohwa-salomon-4bb457245/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +153,5 @@ I would like also to thank [Creative Commons](http://creativecommons.org/license
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
