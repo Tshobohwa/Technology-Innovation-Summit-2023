@@ -648,7 +648,7 @@ footer a {
     grid-template-columns: 1fr 1fr;
   }
 
-  .about-section4{
+  .about-section4 {
     display: none;
   }
 
@@ -656,7 +656,8 @@ footer a {
     justify-content: center;
     gap: 10rem;
   }
-  .about-footer{
+
+  .about-footer {
     background-color: #272a31;
     color: #d3d3d3;
   }
