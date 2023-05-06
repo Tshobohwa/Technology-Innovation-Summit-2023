@@ -1,15 +1,6 @@
 # Technology Innovation Summit 2023
 
-Technology innovation Summit 2023
-
 <a name="readme-top"></a>
-
-<div align="center">
-  
-  <br/>
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
